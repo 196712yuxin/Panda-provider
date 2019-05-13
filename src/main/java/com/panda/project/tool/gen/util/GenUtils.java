@@ -141,12 +141,12 @@ public class GenUtils
 
         if (template.contains("Service.java.vm"))
         {
-            return javaPath + "service" + "/" + "I" + className + "Service.java";
+            return javaPath + "dubboService" + "/" + "I" + className + "Service.java";
         }
 
         if (template.contains("ServiceImpl.java.vm"))
         {
-            return javaPath + "service" + "/" + className + "ServiceImpl.java";
+            return javaPath + "dubboService" + "/" + className + "ServiceImpl.java";
         }
 
         if (template.contains("Controller.java.vm"))

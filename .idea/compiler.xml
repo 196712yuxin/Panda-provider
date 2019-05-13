@@ -9,5 +9,8 @@
         <module name="Panda" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Panda" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
